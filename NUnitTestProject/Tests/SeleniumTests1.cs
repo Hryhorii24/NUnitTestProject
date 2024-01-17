@@ -373,6 +373,5 @@ namespace SeleniumTests.Tests
 
             Assert.That(dragAndDropPage.OuterDroppableAreaMessage.Text, Is.EqualTo("Dropped!"));
         }
-
     }
 }
